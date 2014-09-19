@@ -36,7 +36,7 @@
 
 #ifdef AMQP_WIN_TIMER_API
 #define WIN32_LEAN_AND_MEAN
-#include <Windows.h>
+#include <windows.h>
 
 uint64_t
 amqp_get_monotonic_timestamp(void)
