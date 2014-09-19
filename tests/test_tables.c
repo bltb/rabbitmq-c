@@ -49,6 +49,10 @@
 #endif
 #include <math.h>
 
+#if !defined(_ANSI_SOURCE)
+#define M_PI 3.14159265358979323846264338327
+#endif
+
 void die(const char *fmt, ...)
 {
   va_list ap;
